@@ -1,3 +1,4 @@
+// 허민석
 #include <ncurses.h>
 #include <locale.h>
 #include <string>
@@ -229,7 +230,7 @@ void draw_meiro(void)
 	}
 	// mvprintw(GYO,0,"move: ← ↑ → ↓ restart: ESC");  // 🟩 🟩 🟩
 	// 🟫🟫🟫 ❤️❤️❤️ 🍎🍎🍎🍎 ☆☆☆☆☆ ★★★★★ ✪✪✪✪✪
-	mvprintw(GYO, 0, "move: ←↑→↓ restart: SPACE\n");
+	mvprintw(GYO, 0, "move: ←↑→↓ restart: SPACE back : Q\n");
 }
 
 void key_input(void) 
